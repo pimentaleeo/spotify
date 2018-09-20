@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    height: 70px;
+    height: 54px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -19,11 +19,20 @@ header{
     position: fixed;
     top: 0;
 }
-h1{
-    color: white;
+
+.logotopo{
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 3%;
 }
-header img{
-    height: 50px;
+
+.logotopo img:nth-last-child(1){
+    width: 25px;
+    background-image: white;
+}
+
+.logotopo img:nth-last-child(2){
+    width: 90px;
 }
 
 nav{
@@ -35,32 +44,12 @@ nav{
     height: 50px;
 }
 
-#hamburguer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    background-color: black;
-    border: 2px solid white;
-}
-
-
-#hamburger div{
-    width: 30px;
-    height: 10px;
-    background-color: white;
-    border-radius: 90%;
-
-}
-
 section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
     flex-direction: column;
+    height: 100vh;
 }
 
 .logotopo{
@@ -68,39 +57,33 @@ section{
     flex-direction: row;
     align-items: center;
 }
-.logotopo img{
 
-}
-
-.logotopo h1{
-    font-size: 13pt;
-    margin-left: 5px;
-}
 
 .botao {
-    width: 270px;
-    height: 50px;
-    background-color: green;
-    border-radius:20px;
+    background-color: rgb(40, 203, 94);
+    border-radius:30px;
     color: white;
     border: 0px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
+    font-size: 11pt;
+    font-weight: bold;
     text-transform: uppercase;
-    padding: 10px 30px;
+    padding: 16px 55px;
 }
 .titulo{
     font-size: 15pt;
-
+    justify-content: center;
+    text-align: center;
 }
 section p:first-child {
-    font-size: 40pt;
+    font-size: 35pt;
     font-weight: bolder;
-    text-align: center;
+    margin: 0;
 }
 section p:nth-child(2) {
-    font-size: 15pt;
-    text-align: center;
+    font-size: 13pt;
+    margin: 10px 0px 33px;
+    font-weight: bolder;
 }
 
 footer{
@@ -134,7 +117,4 @@ color: gray;
 }
 @media screen and (min-width:640px){
 
-}
-/* .titulo{
- bottom:30px;
-} */
+
